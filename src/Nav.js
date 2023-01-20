@@ -1,20 +1,20 @@
 function Nav() {
   return (
     <nav>
-      <ul>
-        <li>
+      <ul className="nav-list">
+        <li className="nav-item">
           <a href="https://www.litter-robot.com/blog/30-fascinating-cat-facts/">
-            Learn Cat Facts
+           Cat Facts
           </a>
         </li>
-        <li>
+        <li className="nav-item">
           <a href="https://unsplash.com/s/photos/cute-cat">
-            Look at Cat Pictures
+            Cat Pics
           </a>
         </li>
-        <li>
+        <li className="nav-item">
           <a href="https://www.petfinder.com/search/cats-for-adoption/">
-            Rescue a Cat
+            Cat Rescue
           </a>
         </li>
       </ul>
